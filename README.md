@@ -1,3 +1,3 @@
 # Forms using CSS
 
-<img src=".images/preview">
+<img src="./images/Preview.PNG">
