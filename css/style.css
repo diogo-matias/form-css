@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: rgb(228, 228, 228);
+}
+
+body {
+  background-color: #1b2029;
+  display: flex;
+
+  height: 100vh;
+}
+
+.imagem {
+  display: flex;
+  align-self: end;
+  justify-content: end;
+
+  width: 50vw;
+  padding-bottom: 30px;
+  padding-right: 20px;
+
+  position: relative;
+}
+
+.imagem img {
+  height: 450px;
+}
+
+main {
+  width: 50vw;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(12, 12, 12);
+  border-radius: 20px;
+  height: 70%;
+  width: 50%;
+}
+
+h1 {
+  color: rgb(26, 173, 247);
+}
+
+.tabela form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2rem;
+}
+
+.tabela form label {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.tabela form label span {
+  margin-top: 10px;
+}
+
+.tabela form label input {
+  background-color: #1b2029;
+  border: solid 1px #17689e;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+
+  margin-top: -2px;
+  height: 30px;
+  width: 180px;
+
+  color: rgb(216, 216, 216);
+}
+
+.botao {
+  background-color: rgb(26, 173, 247);
+  border-radius: 15px;
+  cursor: pointer;
+
+  margin-top: 40px;
+  height: 40px;
+  width: 120px;
+
+  font-weight: 600;
+  color: rgb(216, 216, 216);
+
+  align-self: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.botao:hover {
+  background-color: rgb(23, 121, 170);
+}
+
+.circulo {
+  background-color: rgb(23, 121, 170);
+  background: linear-gradient(45deg, rgb(23, 121, 170), rgb(11, 37, 49));
+
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+
+  z-index: -1;
+  clip-path: circle(50% at right, bottom);
+
+  bottom: -100px;
+  right: -80px;
+}
